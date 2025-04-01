@@ -8,9 +8,11 @@ body{
     background-color: rgb(234, 230, 223);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 p{
     font-size:1.2em;
 }
+
 nav{
     display:inline-block;
     width: 100%;
@@ -22,6 +24,7 @@ nav{
     align-items: center;
     margin: 10px;
 }
+
 .logo img{
     margin-top:13px;
 }
@@ -62,6 +65,7 @@ main{
     align-items: center;
     justify-content: center;
 }
+
 .instructions{
     width: 950px;
     margin-right: 50px;
@@ -71,9 +75,11 @@ main{
     align-items: start;
     justify-content: center;
 }
+
 #heading{
     font-size: 1.8em;
 }
+
 .container{
     display:flex;
     background-color: white;
@@ -87,42 +93,52 @@ main{
     height: 460px;
     text-align: justify;
 }
+
 .more-links a{
     text-decoration-color: rgb(43, 183, 75);
     text-decoration-thickness: 2px;
     color:black;
     font-size: 15px;
 }
+
 .more-links p{
     margin-block:10px;
 }
+
 ol{
     margin-block: 20px;
 }
+
 ol img{
     display: inline-block;
     margin-bottom: -3px;
 }
+
 li{
     font-size:1.2em;
     margin-inline-start: 20px;
     padding:5px;
 }
+
 .QRcode{
     text-align: left;
 }
+
 .QRcode, img{
     display: block;
     margin-bottom: 10px;
 }
+
 .QRcode p{
     display: inline-block;
     font-size:15px;
 }
+
 .QRcode{
     width: 275px;
     padding-left:-20px;
 }
+
 .inside-footer > p{
     display:inline-block;
     font-size: 15px;
@@ -136,13 +152,15 @@ li{
 .inside-footer svg{
     color: gray;
 }
+
 input[type="checkbox"]{
     width: 20px;
     height: 15px;
     border: 2px solid #000;
 }
+
 input[type="checkbox"] {
-    appearance: none; /* Remove default checkbox */
+    appearance: none;
     width: 20px;
     height: 20px;
     border: 2px solid black;
@@ -159,7 +177,7 @@ input[type="checkbox"] {
   }
   
   input[type="checkbox"]:checked::after {
-    content: "✔"; /* Unicode tick mark */
+    content: "✔"; 
     color: white;
     font-size: 16px;
     font-weight: bold;
