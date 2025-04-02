@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    Background-Color: #DCE5F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    padding-inline: 30px;
+    padding-block: 25px;
+    Background: #000000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 300px;
+    height: auto;
+}
+
+li {
+    background-color: #E7E4DD;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+
+.item1 {
+    text-align: right;
+    grid-column: span 4;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.item5 {
+    background-color: #3B82F6;
+    color: white;
+}
+
+.item5:hover {
+    color: white;
+    background-color: plum;
+}
+
+.item18 {
+    grid-column: span 2;
+    color: white;
+    background-color: darkgray;
+    font-size: 17px;
+}
+
+.item19 {
+    grid-column: span 2;
+    color: white;
+    background-color: crimson;
+    font-size: 17px;
+}
+
+.item18:hover,
+.item19:hover {
+    color: white;
+    background-color: #3B82F6;
+}
+
+li:hover {
+    background-color: white;
+}
+
+input {
+    all: inherit;
+    width: 300px;
+    background-color: unset;
+}
