@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: white;
+    height: 520px;
+    padding:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:10px;
+    box-shadow: 0 0 10px 10px rgb(226, 234, 237);
+}
+
+.container>h1{
+    color:#212529;
+    display:block;
+    font-size: 2.2em;
+    margin-top:10px;
+}
+
+.top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+}
+
+.button{
+    width:40px;
+    height:22px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding:0.7px;
+    display:inline-block;
+    margin: 5px;
+    cursor:pointer;
+}
+.inner-button{
+    width: 20px;
+    height:20px;
+    border-radius:10px;
+    background-color:white;
+    margin-left:1px;
+    cursor:pointer;
+    border:none;
+}
+
+.inner-button:focus{
+    margin-left:20px;
+}
+
+.top p{
+    display:inline-block;
+    color:#6c757d;
+    font-size:1em;
+}
+
+.card{
+    height:330px;
+    width:250px;
+    border:1.2px solid #dee2e6;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom:-25px;
+}
+h1, #num{
+    margin:5px;
+}
+
+h1{
+    font-size:1.5em;
+}
+
+#num,#num2,#num3{
+    font-size:2.2em;
+}
+.card h1{
+    color:purple;
+}
+
+.blue h1, #num{
+    color: #007bff;
+    padding:10px;
+}
+.purple h1, #num2{
+    color: #6f42c1;
+    padding:10px;
+}
+.green h1, #num3{
+    color:#28a745;
+    padding:10px;
+}
+.card p{
+    color:#6c757d;
+    font-size:13px;
+    margin:5px;
+}
+.learn p{
+    color:white;
+}
+.learn {
+    background-color: #007bff;
+    border-radius:7px;
+    width:125px;
+    padding-block:5px;
+    margin:20px;
+    cursor: pointer;
+}
+.learn2{
+    background-color:#6f42c1;
+}
+.learn3{
+    background-color: #28a745;
+}
+
+.card{
+    transition: transform  0.1s ease;
+}
+
+.blue:hover{
+    background-color: rgba(0, 123, 255,0.2);
+    border: 1px solid rgb(0, 123, 255);
+    transform: scale(1.06);
+}
+
+.purple:hover{
+    border: 1px solid rgb(110, 66, 193);
+    background-color: rgba(110, 66, 193,0.2);
+    transform: scale(1.06);
+
+}
+.green:hover{
+    border: 1px solid #28a745;
+    background-color: rgba(40, 167, 69,0.2);
+    transform: scale(1.06);
+}
