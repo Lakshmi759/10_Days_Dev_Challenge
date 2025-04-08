@@ -195,3 +195,45 @@ h1{
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .top {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+    margin: 15px 0;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .card h1 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .learn {
+    width: 100%;
+    max-width: 200px;
+  }
+}
