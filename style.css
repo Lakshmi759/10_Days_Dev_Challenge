@@ -237,3 +237,27 @@ h1{
     max-width: 200px;
   }
 }
+
+@media (max-width: 400px) {
+  .container {
+    padding: 10px;
+  }
+
+  .learn {
+    width: 100%;
+    padding-block: 10px;
+    font-size: 14px;
+  }
+
+  .card h1 {
+    font-size: 1.2em;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  #num, #num2, #num3 {
+    font-size: 1.6em;
+  }
+}
