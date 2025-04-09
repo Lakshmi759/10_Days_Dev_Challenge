@@ -112,6 +112,7 @@ p {
     display: block;
     margin: 10px;
     cursor: pointer;
+    color:white;
 }
 
 input[type="checkbox"] {
@@ -146,7 +147,7 @@ input[type="checkbox"]:checked + p {
 }
 
 .red:hover{
-    color:white;
+    color:black;
 }
 ::placeholder{
     font-size: 15px;
